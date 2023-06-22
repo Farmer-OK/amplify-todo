@@ -10,6 +10,14 @@
       "StackName": "amplify-awsamplifytodo-dev-222613",
       "StackId": "arn:aws:cloudformation:ap-northeast-1:561910307463:stack/amplify-awsamplifytodo-dev-222613/5d3c9e30-1100-11ee-aa86-066a0b5aff35",
       "AmplifyAppId": "d2ic0cfdnjx7i8"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2ic0cfdnjx7i8",
+          "type": "cicd"
+        }
+      }
     }
   }
 }
