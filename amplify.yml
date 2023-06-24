@@ -8,13 +8,13 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm install
+        - yarn install
     build:
       commands:
-        - npm run build
-    postBuild:
+        - yarn build
+    export:
       commands:
-        # - npm run export
+        - yarn export
   artifacts:
     baseDirectory: out
     files:
@@ -22,3 +22,22 @@ frontend:
   cache:
     paths:
       - node_modules/**/*
+      
+# frontend:
+#   phases:
+#     preBuild:
+#       commands:
+#         - npm install
+#     build:
+#       commands:
+#         - npm run build
+#     postBuild:
+#       commands:
+#         - npm run export
+#   artifacts:
+#     baseDirectory: out
+#     files:
+#       - '**/*'
+#   cache:
+#     paths:
+#       - node_modules/**/*
