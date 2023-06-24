@@ -12,7 +12,8 @@ frontend:
     build:
       commands:
         - yarn build
-    export:
+    # export:
+    postBuild:
       commands:
         - yarn export
   artifacts:
@@ -22,7 +23,7 @@ frontend:
   cache:
     paths:
       - node_modules/**/*
-      
+
 # frontend:
 #   phases:
 #     preBuild:
