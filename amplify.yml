@@ -12,8 +12,7 @@ frontend:
     build:
       commands:
         - yarn build
-    # export:
-    postBuild:
+    export:
       commands:
         - yarn export
   artifacts:
