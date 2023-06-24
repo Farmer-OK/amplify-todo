@@ -14,7 +14,7 @@ frontend:
         - npm run build
     postBuild:
       commands:
-        - npm run export
+        # - npm run export
   artifacts:
     baseDirectory: out
     files:
