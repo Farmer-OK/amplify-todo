@@ -17,6 +17,9 @@
           "appId": "d2ic0cfdnjx7i8",
           "type": "cicd"
         }
+      },
+      "auth": {
+        "awsamplifytodoc9270e8f": {}
       }
     }
   }
