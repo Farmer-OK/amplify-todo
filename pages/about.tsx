@@ -21,7 +21,7 @@ const AboutPage = () => (
      <p>This is the about page</p>
      <p>
        <Link href="/" >
-        <a>Go home</a>
+        Go home
        </Link>
      </p>
    </Layout>
