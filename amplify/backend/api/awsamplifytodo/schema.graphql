@@ -1,7 +1,3 @@
-# This "input" configures a global authorization rule to enable public access to
-# all models in this schema. Learn more about authorization rules here: https://docs.amplify.aws/cli/graphql/authorization-rules
-input AMPLIFY { globalAuthRule: AuthRule = { allow: public } } # FOR TESTING ONLY!
-
 type Todo
  @model # --- ①
  @auth( # --- ②
@@ -11,7 +7,7 @@ type Todo
    ]
  ) {
  id: ID! # --- ③
- name: String! @auth(rules: [{allow: owner, operations: [read, update]}]) # --- ④
+ name: String!
  status: TodoStatus! # --- ⑤
  deadLine: AWSDateTime # --- ⑥
  description: String

@@ -20,6 +20,9 @@
       },
       "auth": {
         "awsamplifytodofee86aaa": {}
+      },
+      "api": {
+        "awsamplifytodo": {}
       }
     }
   }
