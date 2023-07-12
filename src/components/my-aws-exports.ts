@@ -1,5 +1,5 @@
 import { Amplify } from 'aws-amplify'
-import AmplifyConfig from './aws-exports'
+import AmplifyConfig from '../aws-exports'
  
 export { AmplifyConfig } // --- ①
  

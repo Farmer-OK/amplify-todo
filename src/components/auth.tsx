@@ -1,4 +1,4 @@
-import { configure } from '@/my-aws-exports'
+import { configure } from '@/components/my-aws-exports'
 import { Authenticator } from '@aws-amplify/ui-react'
 import React, { FC } from 'react';
  
